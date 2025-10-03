@@ -250,3 +250,13 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+  .cart-count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* ให้อยู่กึ่งกลางทั้งแนวตั้งและแนวนอน */
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  pointer-events: none; /* กันไม่ให้คลิกโดน */
+}
